@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Conecta - Assistente de Apoio Emocional",
-  description: "Assistente virtual de acolhimento e suporte emocional com IA",
+  title: "Conecta - Pequenos passos, grandes conquistas",
+  description:
+    "Assistente virtual de acolhimento, prática de comunicação e apoio emocional com IA",
 };
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
     <html
       lang="pt-BR"
       suppressHydrationWarning
-      className="h-full antialiased"
+      className="h-full dark antialiased"
     >
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>
